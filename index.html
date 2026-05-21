@@ -17,18 +17,86 @@
 
 <body>
 
-    <div class="password-container">
-        <h2>Gerador de Senhas Aleatórias</h2>
-        <div class="input-container">
-            <input class="input" 
-            type="text" 
-            id="input" 
-            readonly 
-            placeholder="Criar Senha">
-            <i class="fa-regular fa-copy"></i>
+    <div class="main-container">
+        <header>
+            <h1>🔐 Gerador de Senhas Aleatórias</h1>
+            <p class="subtitle">Crie senhas seguras e aleatórias em segundos</p>
+        </header>
+
+        <div class="password-container">
+            <h2>Gerar Nova Senha</h2>
+            <div class="input-container">
+                <input class="input" 
+                type="text" 
+                id="input" 
+                readonly 
+                placeholder="Clique em Gerar">
+                <i class="fa-regular fa-copy" title="Copiar senha"></i>
+            </div>
+            <button class="btn" id="generate">Gerar Senha</button>
         </div>
-        <button class="btn" id="generate" onclick="createPassword()">Gerar</button>
+
+        <section class="info-section">
+            <h2>📖 Como Usar</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Clique no botão "Gerar Senha"</h3>
+                        <p>O sistema irá criar uma senha aleatória com 14 caracteres, incluindo letras, números e símbolos especiais.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Copie a senha gerada</h3>
+                        <p>Clique no ícone de copiar ao lado da senha para copiá-la automaticamente para a área de transferência.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Use sua senha segura</h3>
+                        <p>Cole a senha onde precisar. Recomendamos usar um gerenciador de senhas para armazená-la com segurança.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <h2>🛡️ Por que usar senhas aleatórias?</h2>
+            <div class="features">
+                <div class="feature">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Maior Segurança</h3>
+                    <p>Senhas aleatórias são muito mais difíceis de serem descobertas por ataques de força bruta.</p>
+                </div>
+                <div class="feature">
+                    <i class="fa-solid fa-key"></i>
+                    <h3>Caracteres Variados</h3>
+                    <p>Combinação de letras maiúsculas, minúsculas, números e símbolos especiais para máxima proteção.</p>
+                </div>
+                <div class="feature">
+                    <i class="fa-solid fa-clock"></i>
+                    <h3>Rápido e Fácil</h3>
+                    <p>Gere senhas seguras instantaneamente sem precisar pensar em combinações complexas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <h2>ℹ️ Sobre este Projeto</h2>
+            <div class="about">
+                <p>Este gerador de senhas foi desenvolvido com HTML, CSS e JavaScript puro, sem dependências externas além das bibliotecas de ícones e fontes. É totalmente responsivo e funciona em qualquer dispositivo.</p>
+                <p>O código é open source e está disponível no GitHub para quem quiser estudar, modificar ou contribuir com o projeto.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Desenvolvido com ❤️ usando HTML, CSS e JavaScript</p>
+        </footer>
     </div>
+    
     <div class="alert-container active">Senha Copiada</div>
 
 </body>
