@@ -79,7 +79,7 @@ Este projeto está disponível sob a Licença MIT.
 
 ## 👤 Autor
 
-Desenvolvido por [Seu Nome]
+Desenvolvido por Willian Mendes Maia
 
 ---
 
